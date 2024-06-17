@@ -5,4 +5,4 @@
 layout: home
 ---
 
-## Under Construction
+Page is under construction
