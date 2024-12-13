@@ -1,8 +1,23 @@
 ---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
 layout: home
-title: "Home"
 ---
 
-This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
+:wave: Hi, I'm Erik. Welcome to my digital space. I'm an IT professional currently studying Cybersecurity at Western Governors University. I created this site to share my thoughts and ideas. I also plan to share projects such as this Jekyll project.
 
-Academics can use this home page to describe their research interests, display their latest publications, or provide an introduction to their research group.
+<ins>**currently learning**
+* Linux
+* Ethical Hacking
+* Git
+
+<ins>**interests**
+
+When I am not in front of a computer some of my hobbies include:
+* Skateboarding :skateboard:
+* Playing pool :8ball:
+* Running :running:
+
+**want to reach me?**
+Feel free to contact me through [Linkedin](https://linkedin.com/in/erikjrz) or via [email](mailto:mail@erikjrz.com).  
