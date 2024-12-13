@@ -1,7 +1,11 @@
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
+$backgroundColor: #050706;
+$bodyColor: #e5e5e6;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-$linkColor: #212529 !important;
+$linkColor: #6787c5!important;
+
+header > .title-text a{
+  color: $bodyColor;
+}
 
 body {
   background: $backgroundColor;
@@ -9,6 +13,85 @@ body {
   font-family: $bodyFont;
 }
 
-body a {
+body > a {
   color: $linkColor
+}
+
+header > .title-text a:hover {
+  color: #c2c2c2; /*Change text color on hover */
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  /*background-color: #222;*/
+  color: #fff;
+  border-top: 1px solid #dee2e6
+}
+
+.footer-content {
+  margin: 15px 0px 15px 0px; /* Adds a break between the content and social icons */
+  text-align: center;
+  /*background-color: red;*/
+  height: 15%;
+  color: $bodyColor;
+}
+
+.social-icons {
+  margin-top: 45px;
+  display: flex;
+  gap: 12px;
+  /*background-color: green;*/
+}
+
+.social-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #ddd;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+
+nav > a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav > a:hover {
+  color: #c2c2c2; /*Change text color on hover */
+}
+
+/* Add hover underline effect */
+nav > a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 2px; /* Adjust distance from text */
+  width: 0;
+  height: 2px;
+  background-color: #2885f0;
+  transition: width 0.3s ease-in-out;
+}
+
+nav > a:hover::after {
+  width: 100%; /* Expand underline on hover */
 }
